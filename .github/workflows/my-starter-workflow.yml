@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   call-workflow-using-branch:
-    uses: ashrafalih/demo_called/.github/workflows/my-starter-workflow-2.yml@main
+    uses: ashrafalih/demo_called/.github/workflows/reusable-2.yml@main
 #example:1: reusable workflow in same repo###########################################
 # name: My Starter Workflow
 # on:
